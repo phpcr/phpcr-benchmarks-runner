@@ -1,0 +1,22 @@
+{
+    "name": "phpcr/phpcr-implementation-benchmarks",
+    "description": "PHPCR Benchmarking Suite Runner",
+    "type": "lib",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Daniel Leech",
+            "email": "daniel@dantleech.com"
+        }
+    ],
+    "require": {
+        "phpcr/phpcr-benchmarks": "dev-master",
+        "phpcr/phpcr-api-tests": "dev-master",
+        "psr/log": "~1.0",
+        "jackalope/jackalope-doctrine-dbal": "dev-master",
+        "jackalope/jackalope-jackrabbit": "dev-master",
+        "jackalope/jackalope-fs": "dev-master",
+        "phing/phing": "~2.11"
+    }
+}
